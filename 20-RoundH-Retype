@@ -1,0 +1,6 @@
+for d in range(int(input())):
+    n,k,s=map(int,input().split())
+    one=(k-s)+(n-s)+k
+    two=k+n
+    minn=min(one,two)
+    print("Case #" + str(d+1) + ": "+str(minn))
